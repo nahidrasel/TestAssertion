@@ -9,6 +9,7 @@ namespace TestAssertion
         {
             Assert.That("a value", Is.EqualTo("this value"));
         }
+
         [Test]
         public void AssumptionThenAsserting()
         {
